@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a84593e805.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  
   <title>KFC</title>
 </head>
 <body>
@@ -39,7 +39,18 @@
         <button class="order_btn">Order Now</button>
       </div>
       <div class="food_img">
-        <img src="./images/burger_fries.png" alt="burger">
+        <div class="slides active">
+          <img src="./images/burger_fries.png" alt="burger_fries">
+        </div>
+        <div class="slides">
+          <img src="./images/burger.png" alt="burger">
+        </div>
+        <div class="slides">
+          <img src="./images/french_fries.png" alt="fries">
+        </div>
+        <div class="slides">
+          <img src="./images/fried_chicken.png" alt="fried_chicken">
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -55,11 +66,12 @@
         </div>
         <div class="slide_btn">
           <button class="left"><i class="fas fa-chevron-left"></i></button>
-        <button class="right"><i class="fas fa-chevron-right"></i></button>
+          <button class="right"><i class="fas fa-chevron-right"></i></button>
       </div>
         
       </div>
     </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>

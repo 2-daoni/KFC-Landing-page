@@ -91,7 +91,13 @@ ul {
 }
 .food_img img {
   padding: 20px;
-  width: 600px;
+  width: 500px;
+}
+.slides {
+  display: none;
+}
+.slides.active {
+  display: block;
 }
 
 /* footer */
