@@ -10,8 +10,7 @@ ul {
   text-decoration: none;
 }
 
-.wrapper {
-  height: 100vh;
+body {
   background: radial-gradient(#f0483a, #d10a2e);
 }
 
@@ -92,6 +91,7 @@ ul {
 .food_img img {
   padding: 20px;
   width: 500px;
+  height: 500px;
 }
 .slides {
   display: none;
@@ -108,6 +108,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  margin-top: 100px;
 }
 
 .social {
@@ -154,4 +155,20 @@ ul {
   border: 1px solid white;
   padding: 10px 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    height: 100%;
+  }
+  .social {
+    margin-left: 30px;
+    margin-right: 700px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
 }
