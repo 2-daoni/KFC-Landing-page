@@ -91,7 +91,7 @@ body {
 .food_img img {
   padding: 20px;
   width: 500px;
-  height: 500px;
+  height: 420px;
 }
 .slides {
   display: none;
@@ -119,6 +119,10 @@ body {
 
 .social a {
   margin-right: 20px;
+}
+
+.social i:hover {
+  transform: translateY(-5px);
 }
 
 .line {
@@ -167,8 +171,19 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
   .main {
+    margin-top: 40px;
     flex-direction: column;
+  }
+  .food_img {
+    margin-top: 30px;
+  }
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .social,
+  .slide {
+    margin: 10px auto 30px auto;
   }
 }
