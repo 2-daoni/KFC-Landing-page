@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,31 +11,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a84593e805.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  
+
   <title>KFC</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div class="header">
       <div class="logo">
         <a href="#"><img src="./images/logo.png" alt="logo"></a>
       </div>
-      <div class="nav">
-        <ul>
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About</li>
-          <li>Contact</li>
+      <div class="menuBtn">
+        <i class="fas fa-bars open clicked" onclick="clickMenu()"></i>
+        <i class="fas fa-times close" onclick="clickMenu()"></i>
+        <ul class="menu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">menu</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
         </ul>
       </div>
+      
+
     </div>
     <div class="main">
       <div class="content">
         <div class="main-text">
           <h1>Its Finger <br> Lickin <span>Good.</span></h1>
           <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, laboriosam nam. Deserunt libero officiis
-              consequuntur totam perspiciatis, voluptates dolorum, ad incidunt eveniet impedit non commodi labore explicabo
-              velit, aperiam consectetur.</h3>
+            consequuntur totam perspiciatis, voluptates dolorum, ad incidunt eveniet impedit non commodi labore
+            explicabo
+            velit, aperiam consectetur.</h3>
         </div>
         <button class="order_btn">Order Now</button>
       </div>
@@ -67,11 +74,12 @@
         <div class="slide_btn">
           <button class="left"><i class="fas fa-chevron-left"></i></button>
           <button class="right"><i class="fas fa-chevron-right"></i></button>
-      </div>
-        
+        </div>
       </div>
     </div>
   </div>
 </body>
-<script src="script.js"></script>
+<script src="js/slide.js"></script>
+<script src="js/hambar.js"></script>
+
 </html>
